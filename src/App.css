@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(rgb(18, 206, 212), rgb(23, 79, 199));
+  height: 100vh;
+}
 .App {
   text-align: center;
 }
