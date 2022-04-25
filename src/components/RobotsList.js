@@ -34,7 +34,7 @@ render () {
     let robots = this.state.robotsItemList.filter( (x) => x.name.toLowerCase().includes(this.state.myInputValue.toLowerCase()) || x.email.toLowerCase().includes(this.state.myInputValue.toLowerCase()) ).map(x => <Robot className="robot-component" key={x.id} robot={x} />);
 
     // console.log("Liste des robots components: ",robots);
-    //console.log("myInputValue: ", this.state.myInputValue);
+    // console.log("myInputValue: ", this.state.myInputValue);
 
     return (
         <div id="main">
